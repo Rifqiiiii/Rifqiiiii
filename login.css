@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('Foto-Foto/Login.jpeg');
+  background-color: #cc5f5f;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Mengatur gaya untuk kotak login */
+.login-container {
+  background-color: rgba(255, 255, 255, 0.2); /* Transparansi background */  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  width: 300px; /* Menyesuaikan lebar box */
+  margin: 0 auto; /* Agar berada di tengah */
+  text-align: center;
+}
+
+/* Mengatur gaya untuk input field */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Mengatur gaya untuk tombol login */
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1C98F0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-container button:hover {
+  background-color: #1C98F0;
+  transform: scale(1.05);
+
+}
+
+/* Mengatur gaya untuk fokus pada input field */
+.login-container input[type="text"]:focus,
+.login-container input[type="password"]:focus {
+  border-color: #1C98F0;
+  outline: none;
+}
